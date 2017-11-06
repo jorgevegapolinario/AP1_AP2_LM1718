@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>A meeting room reservation form</h1>
+    <p>Notice how the PHP code for the form remains basically unchanged, despite the template</p>
+    <table>
+      <tr>
+        <td><label><b>Your Name:</b><span style="color:red"> *</span></label></td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td><label><b>Your Email address:</b><span style="color:red"> *</span></label></td>
+        <td><input type="text" required></td>
+      </tr>
+      <tr>
+        <td><label><b>Department:</b><span style="color:red"> *</span></label></td>
+        <td>
+          <select>
+            <option>-select-</option>
+            <option>A2</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><label><b>Which room would you like to reserve:</b><span style="color:red"> *</span></label></td>
+        <td>
+          <input type="radio" required>
+          <label><b>Room A</b></label><br>
+          <input type="radio" required>
+          <label><b>Room B</b></label><br>
+          <input type="radio" required>
+          <label><b>Room C</b></label>
+        </td>
+      </tr>
+      <tr>
+        <td><label><b>Extra requirements:</b></label></td>
+        <td>
+          <input type="checkbox">
+          <label><b>Flipchart and pens</b></label><br>
+          <input type="checkbox">
+          <label><b>Plasma TV Screen</b></label><br>
+          <input type="checkbox">
+          <label><b>Coffee, tea and mineral water</b></label>
+        </td>
+      </tr>
+      <tr>
+        <td><label><b>Reservation Date:</b><span style="color:red"> *</span></label></td>
+        <td><input type="text" required><img src="boton.png"><br><img src="flecha.png"><span style="font-size: 12px; color: gray"><b>Date format is YYYY-MM-DD</b></span></td>
+      </tr>
+      <tr>
+        <td><label><b>Reservation Time:</b></label></td>
+        <td>
+          <select>
+            <option>09</option>
+          </select>
+          <select>
+            <option>00</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td colspan="2" style="align: center"><input style="align: center" type="submit" value="Submit"</td>
+      </tr>
+    </table>
+  </body>
+</html>
